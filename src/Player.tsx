@@ -28,7 +28,7 @@ const Player = (props: Props) => {
 
       <div class="content">
         <input
-          class="border-2 border-gray-300 w-[640px] p-2"
+          class="border-2 bg-gray-900 text-white border-gray-300 w-[640px] p-2"
           type="text"
           value={m3u8Url()}
           onChange={(e: any) => setm3u8Url(e.target.value)}
